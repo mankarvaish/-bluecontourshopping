@@ -1,0 +1,17 @@
+.card-img-top{
+    border:20px #000;
+    border-radius: 10px;
+}
+header{
+    display:flex;
+    color:#fff;
+}
+.navbar{
+    width: 100%;
+}
+h4{
+    color: #8d8d8d;
+}
+.review{
+    display: flex;
+}
