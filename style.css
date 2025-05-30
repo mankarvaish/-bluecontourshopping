@@ -1,0 +1,138 @@
+body{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin:0;
+    padding:0;
+    line-height:1.6;
+    width: 100%;
+    font-size: 14px;
+    font-family:Poppins, sans-serif;
+}
+header{
+    display: flex;
+    background-color:#fff;
+    padding:5px 0; color:#fff; 
+    text-align:center; 
+    align-items: end; 
+    text-decoration: none;
+    position: sticky;
+    top:0;
+}
+.search-wrapper{
+    display: flex;
+    align-items: center;
+}
+.searchbox{
+    width: 700px;
+    color:#767474;
+}
+.search-logo{
+    padding: 10px;
+}
+.profilephoto{
+    padding-left:50px;
+}
+.ham{
+    padding-left: 10px;
+}
+.top{
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    font-family:Poppins,serif;
+    padding: 0;
+    margin: 0;
+    border:2px #000;
+}
+.h1,h2,h3{
+    font-family:Poppins,serif;
+    padding: 0;
+    margin: 0;
+}
+.h4,h5,h6{
+    color:#767474;
+    padding:0;
+    margin: 0;
+}
+.navbar{
+    padding:0.5rem;
+    text-align: center;
+    justify-content: space-evenly;
+    position:relative;
+    font-size:14px;
+}
+.navbar a {
+    color:#000;
+    margin:0 1rem;
+    text-decoration: none;
+    justify-content: center;
+    border: 2px transparent;
+    transition: 0.1s ease;
+}
+.navbar a:hover{
+    border-bottom: 2px solid #b8bbbd;
+}
+.price-heart{
+    padding:0;
+}
+form{
+    max-width:400px;
+    padding:30px;
+    border-radius: 10px;
+    border: 2px #3B235C;
+    align-items: center;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+input,textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #ddd;
+}
+.primarybutton{
+    padding:10px 50px;
+    border:none;
+    cursor:pointer;
+    background: #2B1746;
+    color:#fff;
+    border-radius: 6px;
+    font-family: Poppins,serif;
+}
+.secondarybutton{
+    padding:10px 50px;
+    border-width:2rem #3B235C;
+    background-color: #fff;
+    cursor:pointer;
+    color:#000;
+    border-radius: 6px;
+    font-family: Poppins,serif;
+}
+button:hover{
+    background-color: #553582;
+}
+img{
+    border-radius: 10px;
+}
+main{
+    margin:100px;
+    justify-content: space-around;
+}
+footer{
+    font-family: Poppins,serif;
+    display:flex;
+    background:#3B235C; 
+    padding:10px;
+    width:100%;
+    justify-content:center;
+    position: sticky;
+    nav-down:0;
+}
+footer p{
+    padding:0 0.5rem;
+    align-items: end;
+    color:#fff;
+}
