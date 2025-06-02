@@ -5,6 +5,7 @@
         <title>Log In Page</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="signupstyle.css">
+        <script src="sript.js"></script>
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     </head>
     <header border="20">
@@ -14,7 +15,7 @@
             <a href="#" >STORE</a>
             <a href="#" >PRODUCTS</a>
             <a href="#" >PROFILE</a>
-            <a href="login.html">LOG IN</a>
+            <a href="login.html">LOG IN</a>             
             <a href="signup.html">SIGN UP</a>
         </nav>
         <div class="search-wrapper">
@@ -27,23 +28,37 @@
     </header>
     <body>
         <main>
-            <div>
-                <h2>Login to your Account</h2>
-                <h5>Start exploring the world of great style and comfort both in one go</h5>
-                <div>Sign in with Google</div>
+            <div class="illust-heading">
+                <div class="circle1"></div>
+                <img src="green illustration.png" width="280" height="230" class="green-illust">
+                <h1>SHOP YOUR FAVORITES</h1>
+                <h4 class="subhead">Serve through and find the best of your choice, get exclusive offers to shop the best.</h4>
             </div>
-            <div class="form">
-            <form>
-                <label for="name" >Username:</label>
-                <input type="text" id="name" name="name" required> 
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="emial" required>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-                <button class="primarybutton" type="submit">Log In</button>
-                <h5>By continuing you accept our standard terms and conditions and our privacy policy</h5>
-                    <h6>Create a new account, <b>Sign Up!</b></h6>
-            </form></div>
+            <div id="login-form">
+                <form onsubmit="return validateform()">
+                    <div class="form-title">
+                        <h2>Login to your Account</h2>
+                        <h5>Start exploring the world of great style and comfort both in one go</h5>
+                        <button class="tertiarybutton" type="submit">Sign in with Google</button>
+                    </div>
+                    <div class="line-title-line">
+                        <div class="line"></div><h6>Login with Email address</h6><div class="line"></div>
+                    </div>
+                    <label for="name" >Username:</label>
+                    <input type="text" id="name" name="name" required> 
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button class="primarybutton" type="submit">Log In</button>
+                    <input type="text"  id="name" placeholder="Enter your Name">
+                    <button type="submit">submit</button>
+                    <div class="terms">
+                        <h5>By continuing you accept our standard terms and conditions and our privacy policy</h5>
+                        <h5>Create a new account, <a href="signup.html"> Sign Up!</a></h5>
+                    </div>
+                </form></div>
+            </div>
         </main>         
         <footer>
             <p>&copy 2025 BlueContour</p>
